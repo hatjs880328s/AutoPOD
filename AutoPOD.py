@@ -83,7 +83,7 @@ def GitProgress(tupleinfo, selectedidx):
             if gitpushorderoutput[1] is None:
                 print('Tag order progress success.')
                 print('\nPod trunk start ...')
-                trunkoutput = subprocess.Popen([trunkorder], stdout=subprocess.PIPE, shell=True).communicate()
+                trunkoutput = subprocess.Popen([trunkorder], shell=True).communicate()
                 if trunkoutput[1] is None:
                     print('Pod trunk push success.')
                 else:
