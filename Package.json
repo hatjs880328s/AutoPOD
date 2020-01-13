@@ -147,7 +147,7 @@
        "moduleName": "IILoginModule",
        "modulePath": "/Users/shanwz/Desktop/IIPod/IILoginModule",
        "moduleCNName": "云+登陆模块",
-       "moduleID": 19,
+       "moduleID": 20,
        "podOrder": "pod trunk push /Users/shanwz/Desktop/IIPod/IILoginModule/IILoginModule.podspec --allow-warnings --verbose --skip-import-validation"
      }
    ]
