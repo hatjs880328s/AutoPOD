@@ -111,7 +111,7 @@
      {
        "moduleName": "III18N",
        "modulePath": "/Users/shanwz/Desktop/IIPod/III18N",
-       "moduleCNName": "国际化库 - new",
+       "moduleCNName": "国际化库 - old",
        "moduleID": 15,
        "podOrder": "pod trunk push /Users/shanwz/Desktop/IIPod/III18N/III18N.podspec --allow-warnings"
      },
@@ -139,9 +139,16 @@
      {
        "moduleName": "II18N",
        "modulePath": "/Users/shanwz/Desktop/IIPod/II18N",
-       "moduleCNName": "国际化库 - old",
+       "moduleCNName": "国际化库 - new",
        "moduleID": 19,
        "podOrder": "pod trunk push /Users/shanwz/Desktop/IIPod/II18N/II18N.podspec --allow-warnings --verbose"
+     },
+     {
+       "moduleName": "IILoginModule",
+       "modulePath": "/Users/shanwz/Desktop/IIPod/iiloginmodule",
+       "moduleCNName": "云+登陆模块",
+       "moduleID": 19,
+       "podOrder": "pod trunk push /Users/shanwz/Desktop/IIPod/iiloginmodule/IILoginModule.podspec --allow-warnings --verbose --skip-import-validation"
      }
    ]
   }
